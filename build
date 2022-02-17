@@ -1,0 +1,1 @@
+gfortran userInput.f90 readFile.f90 werdle.f90

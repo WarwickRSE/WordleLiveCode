@@ -81,19 +81,3 @@ MODULE word_dict
 
 
 END MODULE
-
-
-PROGRAM MAIN
-
-  USE word_dict
-
-  IMPLICIT NONE
-
-  CALL read_dict()
-  PRINT*, get_random()
-
-  PRINT*, in_dict('hello')
-  PRINT*, in_dict('hellw')
-  PRINT*, in_dict(get_random())
-
-END PROGRAM

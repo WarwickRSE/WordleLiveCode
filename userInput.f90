@@ -26,19 +26,3 @@ FUNCTION get_guess(wlen)
 END FUNCTION
 
 END MODULE
-
-PROGRAM main
-
-  USE user_input
-  IMPLICIT NONE
-
-  CHARACTER(LEN=10) :: guess
-  INTEGER :: wlen=5
-
-  guess = get_guess(wlen)
-
-  PRINT*, guess
-
-END PROGRAM
-
-
