@@ -1,0 +1,19 @@
+**The game **
+
+Wordle (here werdle) is a word guessing game. A word of a fixed number of letters
+is randomly selected, and a player then guesses what it could be. After each guess
+the game reports to the player whether they have guessed a:
+  correct letter in the correct place
+  correct letter, but in the wrong place
+  incorrect letter
+
+The player then guesses again, until they are correct OR have used a fixed
+number of guesses. 
+
+NOTE: a correct letter in the wrong place, can occur only once per letter in the
+test word. So when guessing the word "cliff", a guess of "hello" would only
+signal this once, for the first 'l' in the guess. 
+
+Usually, every guess must be a valid dictionary word, preventing a player from
+simply trialling letters one by one, or using guesses such as "abcde".
+
