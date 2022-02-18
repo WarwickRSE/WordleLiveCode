@@ -21,21 +21,21 @@ The code outline I had in my notebook, which I then used to get started coding
 is copied below. Numbers in brackets denote which "round of editing" I expected
 to tackle that part in.
 
-  Read dictionary file into array (2)
+    Read dictionary file into array (2)
 
-  Use fixed word (1) / select target word (2)
-  Print word (1)
-  Loop
-    Input guess for word (1)
-    Validate as dictionary word (3)
+    Use fixed word (1) / select target word (2)
+    Print word (1)
+    Loop
+      Input guess for word (1)
+      Validate as dictionary word (3)
     
-    Check guess for correct letter-correct place (2)
-    Check guess for correct letter-wrong place (2)
-      (Refactor these once they become clearer (3) )
+      Check guess for correct letter-correct place (2)
+      Check guess for correct letter-wrong place (2)
+        (Refactor these once they become clearer (3) )
 
-    Report on match between guess and target (2)
+      Report on match between guess and target (2)
 
-  Loop ends
+    Loop ends
 
 
 **My prototypes**
@@ -44,8 +44,8 @@ After developing the plan above, I found the following tasks which needed me
 to look up some syntax or best practice and decided to develop prototypes
 for these sections before tackling the main code. These were:
 * Reading a list of words into an array
- * Selecting a word from this at random
- * Checking for presence of a given word in the list
+ i. Selecting a word from this at random
+ ii. Checking for presence of a given word in the list
 * Getting a fixed length string from a user
 * Neatly displaying the guess and some sort of info. on its match to the target
 
